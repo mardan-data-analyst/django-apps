@@ -1,0 +1,5 @@
+admin: mardan
+password: newpass
+
+user: email_tester
+password: test
