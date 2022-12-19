@@ -1,0 +1,12 @@
+<form action='/movies/add' method='POST'>
+	{% csrf_token %}
+	<label for='title'>Movie title:</label>
+	<input type='text' name='title', id='title' placeholder='Movie title'>
+
+
+	<label for='year'>Release year:</label>
+	<input type='text' name='year', id='year' placeholder='Release year'>
+
+	<input type='submit' value='Add'>
+
+</form>
